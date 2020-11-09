@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://desappweb.unicarioca.edu.br/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://desappweb.unicarioca.edu.br/">
+
+<xs:element name="Aluno1AV1" type="tns:Aluno1AV1"/>
+
+<xs:element name="Aluno1AV1Response" type="tns:Aluno1AV1Response"/>
+
+<xs:element name="Aluno1AV2" type="tns:Aluno1AV2"/>
+
+<xs:element name="Aluno1AV2Response" type="tns:Aluno1AV2Response"/>
+
+<xs:element name="Aluno1AV3" type="tns:Aluno1AV3"/>
+
+<xs:element name="Aluno1AV3Response" type="tns:Aluno1AV3Response"/>
+
+<xs:element name="Aluno1Materia" type="tns:Aluno1Materia"/>
+
+<xs:element name="Aluno1MateriaResponse" type="tns:Aluno1MateriaResponse"/>
+
+<xs:element name="Aluno2AV1" type="tns:Aluno2AV1"/>
+
+<xs:element name="Aluno2AV1Response" type="tns:Aluno2AV1Response"/>
+
+<xs:element name="Aluno2AV2" type="tns:Aluno2AV2"/>
+
+<xs:element name="Aluno2AV2Response" type="tns:Aluno2AV2Response"/>
+
+<xs:element name="Aluno2AV3" type="tns:Aluno2AV3"/>
+
+<xs:element name="Aluno2AV3Response" type="tns:Aluno2AV3Response"/>
+
+<xs:element name="Aluno2Materia" type="tns:Aluno2Materia"/>
+
+<xs:element name="Aluno2MateriaResponse" type="tns:Aluno2MateriaResponse"/>
+
+<xs:element name="Aluno3AV1" type="tns:Aluno3AV1"/>
+
+<xs:element name="Aluno3AV1Response" type="tns:Aluno3AV1Response"/>
+
+<xs:element name="Aluno3AV2" type="tns:Aluno3AV2"/>
+
+<xs:element name="Aluno3AV2Response" type="tns:Aluno3AV2Response"/>
+
+<xs:element name="Aluno3AV3" type="tns:Aluno3AV3"/>
+
+<xs:element name="Aluno3AV3Response" type="tns:Aluno3AV3Response"/>
+
+<xs:element name="Aluno3Materia" type="tns:Aluno3Materia"/>
+
+<xs:element name="Aluno3MateriaResponse" type="tns:Aluno3MateriaResponse"/>
+
+<xs:element name="Aluno4AV1" type="tns:Aluno4AV1"/>
+
+<xs:element name="Aluno4AV1Response" type="tns:Aluno4AV1Response"/>
+
+<xs:element name="Aluno4AV2" type="tns:Aluno4AV2"/>
+
+<xs:element name="Aluno4AV2Response" type="tns:Aluno4AV2Response"/>
+
+<xs:element name="Aluno4AV3" type="tns:Aluno4AV3"/>
+
+<xs:element name="Aluno4AV3Response" type="tns:Aluno4AV3Response"/>
+
+<xs:element name="Aluno4Materia" type="tns:Aluno4Materia"/>
+
+<xs:element name="Aluno4MateriaResponse" type="tns:Aluno4MateriaResponse"/>
+
+<xs:element name="atribuirNota12" type="tns:atribuirNota12"/>
+
+<xs:element name="atribuirNota12Response" type="tns:atribuirNota12Response"/>
+
+<xs:element name="atribuirNota34" type="tns:atribuirNota34"/>
+
+<xs:element name="atribuirNota34Response" type="tns:atribuirNota34Response"/>
+
+<xs:element name="hello" type="tns:hello"/>
+
+<xs:element name="helloResponse" type="tns:helloResponse"/>
+
+<xs:element name="senhaAluno1" type="tns:senhaAluno1"/>
+
+<xs:element name="senhaAluno1Response" type="tns:senhaAluno1Response"/>
+
+<xs:element name="senhaAluno2" type="tns:senhaAluno2"/>
+
+<xs:element name="senhaAluno2Response" type="tns:senhaAluno2Response"/>
+
+<xs:element name="senhaAluno3" type="tns:senhaAluno3"/>
+
+<xs:element name="senhaAluno3Response" type="tns:senhaAluno3Response"/>
+
+<xs:element name="senhaAluno4" type="tns:senhaAluno4"/>
+
+<xs:element name="senhaAluno4Response" type="tns:senhaAluno4Response"/>
+
+<xs:element name="senhaProfessor1" type="tns:senhaProfessor1"/>
+
+<xs:element name="senhaProfessor1Response" type="tns:senhaProfessor1Response"/>
+
+<xs:element name="senhaProfessor2" type="tns:senhaProfessor2"/>
+
+<xs:element name="senhaProfessor2Response" type="tns:senhaProfessor2Response"/>
+
+<xs:complexType name="senhaProfessor1">
+<xs:sequence>
+<xs:element name="senha" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="senhaProfessor1Response">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="senhaProfessor2">
+<xs:sequence>
+<xs:element name="senha" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="senhaProfessor2Response">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Aluno1AV3">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="Aluno1AV3Response">
+<xs:sequence>
+<xs:element name="return" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Aluno4Materia">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="Aluno4MateriaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Aluno3AV1">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="Aluno3AV1Response">
+<xs:sequence>
+<xs:element name="return" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Aluno3AV2">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="Aluno3AV2Response">
+<xs:sequence>
+<xs:element name="return" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Aluno1Materia">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="Aluno1MateriaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Aluno2Materia">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="Aluno2MateriaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Aluno3Materia">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="Aluno3MateriaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Aluno3AV3">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="Aluno3AV3Response">
+<xs:sequence>
+<xs:element name="return" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Aluno1AV2">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="Aluno1AV2Response">
+<xs:sequence>
+<xs:element name="return" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="atribuirNota12">
+<xs:sequence>
+<xs:element name="av11" type="xs:float"/>
+<xs:element name="av21" type="xs:float"/>
+<xs:element name="av31" type="xs:float"/>
+<xs:element name="av12" type="xs:float"/>
+<xs:element name="av22" type="xs:float"/>
+<xs:element name="av32" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="atribuirNota12Response">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="atribuirNota34">
+<xs:sequence>
+<xs:element name="av13" type="xs:float"/>
+<xs:element name="av23" type="xs:float"/>
+<xs:element name="av33" type="xs:float"/>
+<xs:element name="av14" type="xs:float"/>
+<xs:element name="av24" type="xs:float"/>
+<xs:element name="av34" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="atribuirNota34Response">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Aluno1AV1">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="Aluno1AV1Response">
+<xs:sequence>
+<xs:element name="return" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="hello">
+<xs:sequence>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="helloResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Aluno4AV1">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="Aluno4AV1Response">
+<xs:sequence>
+<xs:element name="return" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="senhaAluno1">
+<xs:sequence>
+<xs:element name="senha" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="senhaAluno1Response">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="senhaAluno3">
+<xs:sequence>
+<xs:element name="senha" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="senhaAluno3Response">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="senhaAluno2">
+<xs:sequence>
+<xs:element name="senha" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="senhaAluno2Response">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Aluno2AV1">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="Aluno2AV1Response">
+<xs:sequence>
+<xs:element name="return" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Aluno2AV2">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="Aluno2AV2Response">
+<xs:sequence>
+<xs:element name="return" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Aluno4AV3">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="Aluno4AV3Response">
+<xs:sequence>
+<xs:element name="return" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Aluno4AV2">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="Aluno4AV2Response">
+<xs:sequence>
+<xs:element name="return" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="senhaAluno4">
+<xs:sequence>
+<xs:element name="senha" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="senhaAluno4Response">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Aluno2AV3">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="Aluno2AV3Response">
+<xs:sequence>
+<xs:element name="return" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
